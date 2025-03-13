@@ -19,6 +19,6 @@ public class UserTest {
         User user=new User("Arne","Alligator");
 
         user.changeUserName("Arnold");
-        assertEquals("Arnoldar",user.getUserName());
+        assertEquals("Arnold",user.getUserName());
     }
 }
