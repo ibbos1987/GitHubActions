@@ -1,6 +1,6 @@
 name: CI
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 jobs:
   build:
@@ -17,3 +17,7 @@ jobs:
 
       - name: Build and test
         run: mvn clean install
+
+      - name: test
+        run: mvn test
+
