@@ -10,7 +10,7 @@ public class UserTest {
     public void testUser() {
         User user = new User("Arne", "Alligator");
 
-        assertEquals("Arne", user.getUserName());
+        assertEquals("Arnes", user.getUserName());
         assertEquals("Alligator", user.getPassWord());
     }
 
