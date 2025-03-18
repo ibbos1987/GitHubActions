@@ -16,10 +16,10 @@ public class UserTest {
     }
 
     @Test
-    public void testChangeUserName(){
-        User user=new User("Arne","Alligator");
+    public void testChangeUserName() {
+        User user = new User("Arne", "Alligator");
 
         user.changeUserName("Arnold");
-        assertEquals("Arnold",user.getUserName());
+        assertEquals("Arnold", user.getUserName());
     }
 }
